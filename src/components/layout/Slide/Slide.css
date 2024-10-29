@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.banner_img{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.banner_img img{
+    margin-bottom: 50px;
+    border-bottom: 5px solid #F28C1D;
+}
+
+.slide img{
+   
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 400px;
+}
+
+.text-container{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-container h1{
+    font-size: 55px;
+    color: #931004;
+    font-weight: 900;
+}
+
+.text-container h3{
+  color: #444444;
+}
+
+.btn-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-1 button{
+    all: unset;
+    background-color: #F28C1D;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.btn-1 button:hover{
+    background-color: #931004;
+    transition: 1s;
+}
+
+.btn-1 p{
+    color: #444444;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info{
+    
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.info h3{
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin: 0;
+    color: black;
+    
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    text-align: left;
+   
+}
+
+.btn button{
+    all: unset;
+    background-color: #F28C1D;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #931004;
+    transition: 1s;
+}
+.swiper-button-prev, .swiper-button-next{
+color: #931004;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #931004; /* Cambia a tu color preferido */
+  }
+

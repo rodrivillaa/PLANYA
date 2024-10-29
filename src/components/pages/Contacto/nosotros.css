@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.contenedorPadreContactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Contenedor 1 */
+
+.contenedorSub_1{
+    margin-bottom: 100px;
+}
+.contenedorSub_1 h1{
+    color: #F28C1D;
+    font-size: 96px
+}
+.contenedorSub_1 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+/* Contenedor 2 */
+
+.contenedorSub_2{
+    margin-bottom: 100px;
+}
+.contenedorSub_2 h2{
+    font-size: 40px;
+    color: #931004;
+}
+.contenedorSub_2 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+/* Contenedor 3 */
+
+.contenedorSub_3{
+    margin-bottom: 100px;
+}
+.contenedorSub_3 h2{
+    font-size: 40px;
+    color: #931004;
+}
+.contenedorSub_3 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+
+/* Contenedor 4 imagen banner */
+.contenedorSub_4 img{
+    width: 1000px;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.contenedor-footer{
+    display: flex;
+    background-color: #F28C1D;
+    height:500px;
+    margin-top: 150px;
+}
+.datos{
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-datos{
+    display: flex;
+    gap: 880px;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 1px solid black;
+    max-height: 300px;
+}
+
+.nosotros  .ayuda .sucursales h1{
+    font-size: 16px;
+}
+
+.contenedor-datos p{
+    font-size: 12px;
+}
+.imagen{
+    display: flex;
+    
+    gap: 50px;
+}
+.img-footer{
+    display: flex;
+    margin-right: 150px;
+  
+}
+
+.img-footer img{
+    display: flex;
+    
+  
+}

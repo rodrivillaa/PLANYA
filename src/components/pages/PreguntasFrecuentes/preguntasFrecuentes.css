@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.contenedorPadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.contenedorPadre h1{
+    margin: 120px 0px;
+    color: #F28C1D;
+    font-size: 96px
+}
+
+/* Contenedor 1 */
+
+.contenedor_1{
+    height: 300px;
+    margin-bottom: 100px;
+    background-color: #F28C1D;
+}
+.contenedor_1 h2{
+    color: #931004;
+    font-size: 60px
+}
+.contenedor_1 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+
+/* Contenedor 2 */
+
+.contenedor_2{
+    height: 300px;
+    margin-bottom: 100px;
+    background-color: #F28C1D;
+}
+.contenedor_2 h2{
+    color: #931004;
+    font-size: 60px
+}
+.contenedor_2 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+
+/* Contenedor 3 */
+
+.contenedor_3{
+    height: 300px;
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: #F28C1D;
+}
+.contenedor_3 h2{
+    color: #931004;
+    font-size: 60px
+}
+.contenedor_3 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+
+/* Contenedor 4 */
+
+.contenedor_4{
+    height: 300px;
+    margin-bottom: 100px;
+    background-color: #F28C1D;
+}
+.contenedor_4 h2{
+    color: #931004;
+    font-size: 60px
+}
+.contenedor_4 p{
+    margin: 0px 180px;
+    font-size: 20px
+}
+
+
+/* Contenedor 5 */
+
+.contenedor_5 img{
+    width: 1000px;
+}
