@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { db } from '../../../firebase'; 
 import { collection, getDocs } from 'firebase/firestore';
-
+import { Link } from 'react-router-dom';
+import "./baresList.css"
 
 const BaresList = () => {
   const [bares, setBares] = useState([]); // Estado para guardar los bares
@@ -21,23 +22,42 @@ const BaresList = () => {
 
 
   return (
+
     <div>
-      <h1>Bares en Buenos Aires</h1>
-      <ul>
+      <h1 style={{textAlign:"center"}}>Bares en Buenos Aires</h1>
+
+      <div className='contenedorBares'>
         {bares.map((bar) => (
 
-        <li key={bar.id}>
-            <h2>{bar.nombre}</h2>
-            <p>{bar.direccion}</p>
-            {bar.imagenURL ? (
-              <img src={bar.imagenURL} alt={`Imagen de ${bar.nombre}`} width="200" />
-            ) : (
-              <p>Imagen no disponible</p>
-            )}
-        </li>
+        <div className='subContenedor' key={bar.id}>
+
+            <div className='ImagenBoliche'>
+              {bar.imagenURL ? (
+                <img src={bar.imagenURL} alt={`Imagen de ${bar.nombre}`} width="200" />
+              ) : (
+                <p>Imagen no disponible</p>
+              )}
+            </div>
+
+            <div className='contenedorDeImagen'>
+
+              <div className='informacionImagenes'>
+                <h3>{bar.nombre}</h3>
+                <p>{bar.direccion}</p>
+              </div>
+
+              <div className='btn-Imagenes'>
+                <Link to={`/bares/${bar.id}`}>
+                  <button>Ver Mas</button>
+                </Link>
+              </div>
+
+            </div>
+
+        </div>
         
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

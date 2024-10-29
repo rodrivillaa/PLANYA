@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import boliche from "../../../assets/images/2024-09-03 1.png"
 import bannerlogo from '../../../assets/images/pyaa_Mesa_de_trabajo_1.png'
 import boliche2 from "../../../assets/images/2020-03-05 2.png"
+import { Link } from 'react-router-dom';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -29,7 +30,10 @@ return (
     </div>
 
     <div className='btn-1'>
+
+    <Link to={`/bareslist`}>
         <button>Ver Todo</button>
+    </Link>
         <p>Arrastra y Desliza...</p>
     </div>
 
@@ -52,9 +56,6 @@ return (
 
     <SwiperSlide>
         <img src={boliche} alt="" />
-
-
-
 
     <div className='contenedor'>
         <div className='info'>
