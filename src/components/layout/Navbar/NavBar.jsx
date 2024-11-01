@@ -1,6 +1,7 @@
 import './navBar.css'
 import pylogo from '../../../assets/images/logopy_Mesa_de_trabajo_1.png'
 import { FaUserAlt } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -10,15 +11,19 @@ return (
 
         <div className='contenedor_navbar_padre'>
             <div className='logo_img'>
+
+                <Link to="/">
                 <img src={pylogo} alt="" />
+                
+                </Link>
             </div>
 
             <div className='contenedor_de_navegacion'>
                 <ul>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Favoritos</a></li>
-                    <li><a href="#">Mi Mapa</a></li>
-                    <li><a href="#">Ayuda</a></li>
+                <Link to="/zonaeste">BuscaTu</Link>
+                <Link>Favoritos</Link>
+                <Link to="/mapa">Mi Mapa</Link>
+                <Link to="/">Ayuda</Link>
                 </ul>
             </div>
 
@@ -30,9 +35,9 @@ return (
             </div>
         </div>
 
-        <div className='contenedor_planifica'>
+        {/* <div className='contenedor_planifica'>
             <h2>Planifica menos, vivi mas.</h2>
-        </div>
+        </div> */}
 
     </div>
 )

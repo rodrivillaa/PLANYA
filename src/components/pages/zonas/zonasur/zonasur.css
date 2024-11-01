@@ -1,6 +1,4 @@
-
-
-/* Informacion del contenedor */
+* Informacion del contenedor */
 .contenedorBares{
     display: flex;
     flex-wrap: wrap;
@@ -21,11 +19,6 @@
 }
 
 
-.ImagenBoliche img{
-    height: 400px;
-}
-
-
 /* Informacion del contenedor  de abajo de la imagen */
 
 .contenedorDeImagen{
@@ -34,8 +27,6 @@
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
-    max-width: 300px;
-    font-size: 12px;
 }
 
 /* Informacion de Titulo y Zona */

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.ContenedorDetallesPadreTotal{
+    font-family: "Outfit", sans-serif;
+}
+
+.loading {
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+
+
+.contenedorTitulo{
+    background-color: #F28C1D;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Contenedor de precio y horarios */
+.contenedorPrecioHorario{
+    text-align: center;
+}
+.contenedorPrecioHorario span{
+    color: #e21300;
+    font-size: 30px;
+}
+.contenedorPrecioHorario p{
+    color: #931004;
+}
+
+
+/* Contenedor de Imagen */
+
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.contenedorImagen img{
+    border-radius: 30px;
+}
